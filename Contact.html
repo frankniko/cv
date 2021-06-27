@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Cotnact Us Page </title>
+  </head>
+  <body>
+    <h1> <strong> My Contact Page </strong></h1>
+      <p> Name: Frank Niko </p>
+      <p> Phone Number: 201-314-4121  </p>
+      <p> Email: fnota@thoriumdigital.com </p>
+
+      <hr />
+
+      <form action = "mailto:fnota@thoriumdigital.com" method = "post" enctype= "text/plain"> <!-- Auto suggests. This is used to create a form. Changed from action ="index.html" to action = "mailto:email" method = "" -->
+      <!-- Input types are available at: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input -->
+        <label> Your Name: </label> <!-- Name label -->
+        <input type = "text" name = "yourName" value = "" /> <br /><!-- Name Input-->
+        <!-- <input type = "color" name = "" value = "" /> <br /> - Color -->
+        <label> Your Email: </label> <!-- Checkbox label -->
+        <input type = "email" name = "yourEmail" value = "" /><br /> <!-- checkbox -->
+        <label> Your message: </label><br /> <!-- Password Label -->
+        <textarea name = "yourMessage" rows = "10" cols = "30" ></textarea><br /> <!--Instead of input type, you put this for message input | rows - Height / cols - Width -->
+        <input type = "submit" name = "" />
+      </form>
+  </body>
+</html>
